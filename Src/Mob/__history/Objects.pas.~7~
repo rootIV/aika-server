@@ -1,0 +1,27 @@
+unit Objects;
+
+interface
+
+uses
+  Windows, SysUtils, MiscData, GlobalDefs;
+
+{$REGION 'OBJECTS Threads'}
+
+{$ENDREGION}
+
+{$REGION 'Objects Data'}
+type
+  TOBJ = record
+    Index: WORD;
+    Position: TPosition;
+    ContentType: Byte;
+    ContentAmount: WORD;
+    ContentCollectTime: WORD;
+    ReSpawn: Boolean;
+  end;
+{$ENDREGION}
+
+
+implementation
+
+end.

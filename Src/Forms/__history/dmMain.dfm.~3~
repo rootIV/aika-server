@@ -1,0 +1,19 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object conn: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLNCLI11.1;Persist Security Info=False;User ID=sa;Init' +
+      'ial Catalog=aika_db;Data Source=localhost;Initial File Name="";S' +
+      'erver SPN=""'
+    Provider = 'SQLNCLI11.1'
+    Left = 144
+    Top = 128
+  end
+  object ADOQuery1: TADOQuery
+    Parameters = <>
+    Left = 272
+    Top = 104
+  end
+end

@@ -1,0 +1,12 @@
+EAccessViolation: Access violation at address 0000000000BF9D70 in module 'AikaServer.exe'. Write of address 0000000000000000
+-------------------------------------------------------------------------------
+EAccessViolation: Access violation at address 0000000000BF9D70 in module 'AikaServer.exe'. Write of address 0000000000000000
+-------------------------------------------------------------------------------
+EAccessViolation: Access violation at address 00000000004C4857 in module 'AikaServer.exe'. Read of address 0000000000000000
+-------------------------------------------------------------------------------
+EIdOSSLLoadingCertError: Could not load certificate.
+error:140DC002:SSL routines:SSL_CTX_use_certificate_chain_file:system lib
+-------------------------------------------------------------------------------
+EIdOSSLLoadingCertError: Could not load certificate.
+error:140DC002:SSL routines:SSL_CTX_use_certificate_chain_file:system lib
+-------------------------------------------------------------------------------

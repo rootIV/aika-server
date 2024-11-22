@@ -1,0 +1,22 @@
+unit Objects;
+
+interface
+
+uses
+  Windows, SysUtils;
+
+{$REGION 'OBJECTS Threads'}
+
+{$ENDREGION}
+
+{$REGION 'Objects Data'}
+type
+  TOBJ = record
+
+  end;
+{$ENDREGION}
+
+
+implementation
+
+end.
