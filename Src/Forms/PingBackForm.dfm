@@ -12,8 +12,6 @@ object frmPingback: TfrmPingback
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
-  PixelsPerInch = 96
   TextHeight = 13
   object memLog: TMemo
     Left = 0

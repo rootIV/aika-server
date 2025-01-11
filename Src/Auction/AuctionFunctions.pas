@@ -81,7 +81,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -182,7 +182,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -283,7 +283,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -384,7 +384,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -485,7 +485,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -586,7 +586,7 @@ begin
           AnsiString(MYSQL_DATABASE));
         if not(SQLComp.Query.Connection.Connected) then
         begin
-          Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+          Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
             TlogType.Warnings);
           Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
           SQLComp.Destroy;
@@ -698,7 +698,7 @@ begin
     AnsiString(MYSQL_DATABASE));
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[GetAuctionItems]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[GetAuctionItems]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetAuctionItems]', TlogType.Error);
     SQLComp.Destroy;
@@ -825,7 +825,7 @@ begin
     AnsiString(MYSQL_DATABASE));
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[GetSelfAuctionItems]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[GetSelfAuctionItems]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[GetSelfAuctionItems]', TlogType.Error);
     SQLComp.Destroy;
@@ -942,7 +942,7 @@ begin
   end;
   if (ItemList[RegisterItem.Index].TypeTrade > 0) then
   begin
-    Player.SendClientMessage('Item não comercializavel! estranho !!!!!');
+    Player.SendClientMessage('Item nï¿½o comercializavel! estranho !!!!!');
     Exit;
   end;
   if not(Self.RegisterItemDatabase(Player, RegisterItem^, AuctionItemIndex))
@@ -988,7 +988,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[RegisterItemDatabase]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[RegisterItemDatabase]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[RegisterItemDatabase]', TlogType.Error);
     SQLComp.Destroy;
@@ -1047,8 +1047,8 @@ begin
   begin
     ItemLevel := 1;
   end;
-  // Checa se o item pode ser Reforçado e seta um valor padrão caso não
-  // Media para evitar problemas no filtro de Reforço
+  // Checa se o item pode ser Reforï¿½ado e seta um valor padrï¿½o caso nï¿½o
+  // Media para evitar problemas no filtro de Reforï¿½o
   if (ItemList[Item.Index].Fortification) and (ItemList[Item.Index].Classe > 0) then
   begin
     ItemReinforce := Trunc(Item.Refi / 16);
@@ -1062,7 +1062,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[RegisterOfferDatabase]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[RegisterOfferDatabase]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[RegisterOfferDatabase]', TlogType.Error);
     SQLComp.Destroy;
@@ -1119,7 +1119,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[CancelItemOffer]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[CancelItemOffer]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[CancelItemOffer]', TlogType.Error);
     SQLComp.Destroy;
@@ -1236,7 +1236,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
     if not(SQLComp.Query.Connection.Connected) then
     begin
-      Logger.Write('Falha de conexão individual com mysql.[RequestBuyItem]',
+      Logger.Write('Falha de conexï¿½o individual com mysql.[RequestBuyItem]',
         TlogType.Warnings);
       Logger.Write('PERSONAL MYSQL FAILED LOAD.[RequestBuyItem]', TlogType.Error);
       SQLComp.Destroy;
@@ -1309,7 +1309,7 @@ begin
 
     Player.DecGold(SellingPrice);
     Self.SendBuyResult(Player, AuctionOfferId);
-    Player.SendClientMessage('O item comprado será entregue por correio');
+    Player.SendClientMessage('O item comprado serï¿½ entregue por correio');
   except
     begin
       SQLComp.Destroy;
@@ -1346,7 +1346,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[RegisterAquisitionMail]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[RegisterAquisitionMail]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[RegisterAquisitionMail]', TlogType.Error);
     SQLComp.Destroy;
@@ -1365,7 +1365,7 @@ begin
     end;
     if(Player.Base.Character.CharIndex = SQLComp.Query.Fields[0].AsInteger) then
     begin
-      Player.SendClientMessage('Você não pode comprar seu própio item.');
+      Player.SendClientMessage('Vocï¿½ nï¿½o pode comprar seu prï¿½pio item.');
       SQLComp.Destroy;
       Result := False;
       Exit;
@@ -1373,8 +1373,8 @@ begin
     QueryString :=
       Format('INSERT INTO mails (characterId, sentCharacterId, sentCharacterName, title, ' +
         'textBody, slot, sentGold, gold, returnDate, ' +
-        'sentDate, isFromAuction, canReturn, hasItems) VALUES (%d, 1, "Casa de Leilões", '+
-        '"Item Comprado", "Entrega de item adquirido na casa de leilões", 0, '+
+        'sentDate, isFromAuction, canReturn, hasItems) VALUES (%d, 1, "Casa de Leilï¿½es", '+
+        '"Item Comprado", "Entrega de item adquirido na casa de leilï¿½es", 0, '+
         '0, 0, "%s", "%s", 1, 0, 1);',
         [
           Player.Base.Character.CharIndex,
@@ -1426,7 +1426,7 @@ begin
     AnsiString(MYSQL_DATABASE), True);
   if not(SQLComp.Query.Connection.Connected) then
   begin
-    Logger.Write('Falha de conexão individual com mysql.[RegisterSellerAquisitionMail]',
+    Logger.Write('Falha de conexï¿½o individual com mysql.[RegisterSellerAquisitionMail]',
       TlogType.Warnings);
     Logger.Write('PERSONAL MYSQL FAILED LOAD.[RegisterSellerAquisitionMail]', TlogType.Error);
     SQLComp.Destroy;
@@ -1436,8 +1436,8 @@ begin
     QueryString :=
       Format('INSERT INTO mails (characterId, sentCharacterId, sentCharacterName, title, ' +
         'textBody, slot, sentGold, gold, returnDate, ' +
-        'sentDate, isFromAuction, canReturn) SELECT CharacterId, 1, "Casa de Leilões", '+
-        '"Item Vendido", "Entrega de gold por venda na casa de leilões", 0, '+
+        'sentDate, isFromAuction, canReturn) SELECT CharacterId, 1, "Casa de Leilï¿½es", '+
+        '"Item Vendido", "Entrega de gold por venda na casa de leilï¿½es", 0, '+
         'SellingPrice, SellingPrice, "%s", "%s", 1, 0 FROM '+MYSQL_DATABASE+'.vwauction_getactiveoffers WHERE AuctionId=%d;',
         [
           FormatDateTime('yyyy-mm-dd hh:nn:ss', IncDay(Now, 90)),

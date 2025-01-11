@@ -217,10 +217,7 @@
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libcgunwind.1.0.dylib" Class="DependencyModule"/>
                 <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule"/>
                 <DeployFile LocalName="Bin\AikaServer.exe" Configuration="Debug" Class="ProjectOutput"/>
-                <DeployFile LocalName="Bin\AikaServer.exe" Configuration="Debug" Class="ProjectOutput"/>
-                <DeployFile LocalName="Bin\AikaServer.exe" Configuration="Debug" Class="ProjectOutput"/>
                 <DeployFile LocalName="Bin\AikaServer.exe" Configuration="Release" Class="ProjectOutput"/>
-                <DeployFile LocalName="Bin\AikaServer.rsm" Configuration="Debug" Class="DebugSymbols"/>
                 <DeployFile LocalName="Bin\AikaServer.rsm" Configuration="Debug" Class="DebugSymbols"/>
                 <DeployFile LocalName="Win32\Debug\AikaServer.exe" Configuration="Debug" Class="ProjectOutput"/>
                 <DeployClass Name="AdditionalDebugSymbols">

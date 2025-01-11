@@ -99,32 +99,32 @@ begin
     WebServerClosed := False;
     xServerClosed := False;
     TLoad.InitCharacters;
-    TLoad.InitItemList;
-    TLoad.InitSkillData;
-    TLoad.InitSetItem;
-    TLoad.InitConjunts;
-    TLoad.InitReinforce;
-    TLoad.InitPremiumItems;
-    TLoad.InitExpList;
-    TLoad.InitPranExpList;
+//    TLoad.InitItemList;
+//    TLoad.InitSkillData;
+//    TLoad.InitSetItem;
+//    TLoad.InitConjunts;
+//    TLoad.InitReinforce;
+//    TLoad.InitPremiumItems;
+//    TLoad.InitExpList;
+//    TLoad.InitPranExpList;
     TLoad.InitServerConf;
     TLoad.InitServerList;
-    TLoad.LoadNPCOptions;
-    TLoad.InitMapsData;
-    TLoad.InitScrollPositions;
-    TLoad.InitQuestList;
-    TLoad.InitQuests;
-    TLoad.InitTitles;
-    TLoad.InitDropList;
-    TLoad.InitRecipes;
-    TLoad.InitMakeItems;
+//    TLoad.LoadNPCOptions;
+//    TLoad.InitMapsData;
+//    TLoad.InitScrollPositions;
+//    TLoad.InitQuestList;
+//    TLoad.InitQuests;
+//    TLoad.InitTitles;
+//    TLoad.InitDropList;
+//    TLoad.InitRecipes;
+//    TLoad.InitMakeItems;
     Logger.Space; { Space }
     TLoad.InitServers; { Channels Load }
     Logger.Space; { Space }
     TLoad.InitAuthServer;
     Logger.Space; { Space }
-    TLoad.InitNPCS;
-    TLoad.InitGuilds;
+//    TLoad.InitNPCS;
+//    TLoad.InitGuilds;
     for i := Low(Servers) to High(Servers) do
     begin
       Servers[i].ServerHasClosed := False;
